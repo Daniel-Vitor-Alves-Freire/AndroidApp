@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Storagee</string>
+    <string name="Login">Login</string>
+    <string name="Ir_Cadastro">Ir para o Cadastro</string>
+    <string name="Ir_Login">Ir para o Login</string>
+    <string name="Ir_Cadastro_Itens">Ir para o cadastro de itens</string>
+    <string name="Ir_Lista_de_Itens">Ir para a lista de itens</string>
+    <string name="Cadastro">Cadrastre-se</string>
+    <string name="Cadastros">Cadastro</string>
+    <string name="Cadastrar">Cadastrar</string>
+    <string name="Cadastros_DE_Itens">Cadastro de Itens</string>
+</resources>

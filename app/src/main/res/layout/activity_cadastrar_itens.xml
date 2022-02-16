@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Cadastro"
+    android:background="@drawable/degrad">
+
+    <EditText
+        android:id="@+id/produtoEt"
+        android:layout_margin="2dp"
+        android:padding="10dp"
+        android:inputType="text"
+        android:hint="Produto"
+        android:background="@drawable/bg_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/descricaoEt"
+        android:layout_margin="2dp"
+        android:padding="10dp"
+        android:inputType="textMultiLine|textCapSentences"
+        android:hint="Descrição"
+        android:background="@drawable/bg_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="250dp"
+        android:layout_gravity="start"
+        />
+    <EditText
+        android:id="@+id/valorEt"
+        android:layout_margin="2dp"
+        android:padding="10dp"
+        android:inputType="number"
+        android:hint="Valor"
+        android:background="@drawable/bg_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/quantidadeEt"
+        android:layout_margin="2dp"
+        android:padding="10dp"
+        android:inputType="number"
+        android:hint="Quantidade"
+        android:background="@drawable/bg_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+        <Button
+            style="@style/Button1"
+            android:id="@+id/bt_salva"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salvar"
+            android:gravity="center_horizontal"
+
+            />
+
+    <Button
+        android:id="@+id/bt_mostra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mostrar Lista"
+        android:gravity="center_horizontal"
+        style="@style/Button1"
+
+
+        />
+
+
+
+
+</LinearLayout>

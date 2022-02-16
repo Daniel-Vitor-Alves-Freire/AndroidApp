@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/degrad"
+    tools:context=".Cadastro">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="110dp"
+        android:layout_height="102dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025"
+        app:srcCompat="@drawable/fundoc" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="S T O R A G E"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.765"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.072" />
+
+    <TextView
+        android:id="@+id/titucadas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Cadastro"
+        android:textSize="50sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="130dp"
+        />
+
+    <View
+        android:id="@+id/contaicadast"
+        style="@style/ContainerComponents"
+        app:layout_constraintTop_toBottomOf="@id/titucadas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+    <EditText
+        android:id="@+id/nomecadas"
+        style="@style/Edite_Text"
+        android:hint="Nome"
+        android:inputType="text"
+        android:drawableRight="@drawable/ic_baseline_boy_24"
+        app:layout_constraintStart_toStartOf="@id/contaicadast"
+        app:layout_constraintEnd_toEndOf="@id/contaicadast"
+        app:layout_constraintTop_toTopOf="@id/contaicadast"
+        />
+    <EditText
+        android:id="@+id/emailcadas"
+        style="@style/Edite_Text"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:drawableRight="@drawable/ic_email"
+        app:layout_constraintStart_toStartOf="@id/contaicadast"
+        app:layout_constraintEnd_toEndOf="@id/contaicadast"
+       app:layout_constraintTop_toBottomOf="@id/nomecadas"
+
+        />
+    <EditText
+        android:id="@+id/senhacadas"
+        style="@style/Edite_Text"
+        android:hint="Senha"
+        android:inputType="numberPassword"
+        android:drawableRight="@drawable/ic_chave"
+        app:layout_constraintStart_toStartOf="@id/contaicadast"
+        app:layout_constraintEnd_toEndOf="@id/contaicadast"
+        app:layout_constraintTop_toBottomOf="@id/emailcadas"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_cadas"
+        android:text="@string/Cadastros"
+        style="@style/Button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/senhacadas"
+        android:layout_marginTop="40dp"
+        />
+    <TextView
+        android:id="@+id/textoparalogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Ir_Login"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bt_cadas"
+        android:padding="40dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+
+        />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
